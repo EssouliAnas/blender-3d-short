@@ -1,0 +1,20 @@
+{
+  "voice_mode": "elevenlabs",
+  "voice": {
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_multilingual_v2"
+  },
+  "captions": true,
+  "length_s": 30,
+  "look": "studio",
+  "backdrop": "#F2D7C9",
+  "engine": "auto",
+  "quality": "fast",
+  "music": null,
+  "character": {
+    "mode": "make",
+    "file": "blender-shorts/assets/host/host.blend",
+    "name": "our host",
+    "height_m": 1.75
+  }
+}

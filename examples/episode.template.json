@@ -1,0 +1,52 @@
+{
+  "slug": "stitches",
+  "title": "What stitches actually do",
+  "voice_mode": "elevenlabs",
+  "captions": true,
+  "fps": 30,
+  "seconds": 30,
+  "wps": 2.8,
+  "target_lufs": -14,
+  "script": "If you cut your arm deep enough, the skin can't close on its own. So a doctor pulls a thread through both sides and ties it tight. ...",
+  "science": [
+    {
+      "claim": "Skin sutures in most body areas stay 5 to 14 days",
+      "source": "<cite a medical source here>",
+      "voiced_as": "about a week or two"
+    }
+  ],
+  "voice": {
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "model": "eleven_multilingual_v2"
+  },
+  "music": null,
+  "beds": [
+    {
+      "name": "room",
+      "prompt": "quiet clinic room tone, soft air conditioning hum",
+      "secs": 20,
+      "from": 0,
+      "to": 30,
+      "db": -24
+    }
+  ],
+  "sfx": [
+    {
+      "name": "thread_pull",
+      "prompt": "close-up suture thread pulled through skin, soft squeak",
+      "secs": 1.0,
+      "at": "pulls",
+      "db": -6
+    },
+    {
+      "name": "tie",
+      "prompt": "small tight knot cinched, soft snap",
+      "secs": 0.6,
+      "at": "tight",
+      "db": -6
+    }
+  ],
+  "credits": [
+    "Bones: BodyParts3D, The Database Center for Life Science (CC BY-SA 2.1 JP)"
+  ]
+}
